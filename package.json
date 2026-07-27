@@ -1,0 +1,16 @@
+{
+  "name": "pcs-telegram-bot",
+  "version": "0.1.0",
+  "description": "PCS — Зона Ноль как Telegram-бот (поллинг Telegram Bot API + Google Gemini)",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
